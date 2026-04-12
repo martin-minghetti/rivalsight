@@ -6,7 +6,7 @@ const colorMap: Record<string, string> = {
   critical: "bg-red-100 text-red-800",
   high: "bg-orange-100 text-orange-800",
   medium: "bg-yellow-100 text-yellow-800",
-  low: "bg-gray-100 text-gray-600",
+  low: "bg-green-100 text-green-800",
 };
 
 export default function ThreatBadge({ level }: ThreatBadgeProps) {

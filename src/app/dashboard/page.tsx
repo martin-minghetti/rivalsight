@@ -4,7 +4,6 @@ import { eq, gte, desc, sql } from "drizzle-orm";
 import StatCard from "@/components/StatCard";
 import DemoBanner from "@/components/DemoBanner";
 import ThreatBadge from "@/components/ThreatBadge";
-import ImpactIcon from "@/components/ImpactIcon";
 import TrendChart from "@/components/TrendChart";
 import RunMonitorButton from "@/components/RunMonitorButton";
 
@@ -139,7 +138,6 @@ export default async function DashboardPage() {
                 <th className="px-6 py-3 text-left">Alert</th>
                 <th className="px-6 py-3 text-left">Competitor</th>
                 <th className="px-6 py-3 text-left">Threat</th>
-                <th className="px-6 py-3 text-left">Impact</th>
                 <th className="px-6 py-3 text-left">Date</th>
               </tr>
             </thead>
@@ -155,9 +153,6 @@ export default async function DashboardPage() {
                   </td>
                   <td className="px-6 py-3">
                     <ThreatBadge level={alert.threatLevel} />
-                  </td>
-                  <td className="px-6 py-3">
-                    <ImpactIcon type={alert.impactType} />
                   </td>
                   <td className="px-6 py-3 text-gray-500 text-xs">
                     {alert.createdAt.slice(0, 10)}

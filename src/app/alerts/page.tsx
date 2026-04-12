@@ -2,7 +2,6 @@
 
 import { useEffect, useState, useCallback } from "react";
 import ThreatBadge from "@/components/ThreatBadge";
-import ImpactIcon from "@/components/ImpactIcon";
 
 interface AlertRow {
   id: string;
@@ -108,7 +107,6 @@ export default function AlertsPage() {
                   alert.isRead ? "opacity-60" : ""
                 }`}
               >
-                <ImpactIcon type={alert.impactType} />
                 <ThreatBadge level={alert.threatLevel} />
                 <div className="flex-1 min-w-0">
                   <p

@@ -180,7 +180,7 @@ export default function SettingsPage() {
         <div>
           <h2 className="text-sm font-semibold text-gray-800">Scheduling</h2>
           <p className="text-xs text-gray-500 mt-1">
-            Set it and forget it — the monitor runs automatically on your schedule, checking all active targets for changes. Uses standard cron syntax (e.g. <code className="bg-gray-100 px-1 rounded text-xs">0 */6 * * *</code> = every 6 hours). Requires the app process to be running.
+            Set it and forget it — the monitor checks all active targets automatically on your chosen frequency. Requires the app process to be running.
           </p>
         </div>
         <label className="flex items-center gap-3 cursor-pointer select-none">
@@ -194,14 +194,18 @@ export default function SettingsPage() {
         </label>
         {cronEnabled && (
           <div className="space-y-1">
-            <label className="text-xs text-gray-500 font-medium">Cron expression</label>
-            <input
-              type="text"
+            <label className="text-xs text-gray-500 font-medium">Check every</label>
+            <select
               value={cronExpression}
               onChange={(e) => setCronExpression(e.target.value)}
-              className="w-full text-sm border border-gray-200 rounded px-3 py-2 font-mono focus:outline-none focus:ring-2 focus:ring-blue-500"
-            />
-            <p className="text-xs text-gray-400">Default: every 6 hours (0 */6 * * *)</p>
+              className="w-full text-sm border border-gray-200 rounded px-3 py-2 bg-white text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
+            >
+              <option value="0 * * * *">1 hour</option>
+              <option value="0 */3 * * *">3 hours</option>
+              <option value="0 */6 * * *">6 hours</option>
+              <option value="0 */12 * * *">12 hours</option>
+              <option value="0 0 * * *">24 hours</option>
+            </select>
           </div>
         )}
         <div className="flex items-center gap-3">
