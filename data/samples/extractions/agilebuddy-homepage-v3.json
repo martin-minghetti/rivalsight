@@ -1,0 +1,29 @@
+{
+  "pricing": [
+    {
+      "name": "Starter",
+      "price": 14,
+      "currency": "USD",
+      "period": "month",
+      "features": ["Up to 10 users", "20 projects"]
+    },
+    {
+      "name": "Growth",
+      "price": 29,
+      "currency": "USD",
+      "period": "month",
+      "features": ["Unlimited users and projects"]
+    }
+  ],
+  "features": null,
+  "positioning": {
+    "tagline": "Project management built for growing teams",
+    "claims": [
+      "Scale without the chaos",
+      "Flexible workflows. Powerful reporting. Zero bloat.",
+      "Trusted by 3,000+ teams worldwide"
+    ],
+    "targetAudience": "SMBs"
+  },
+  "content": null
+}

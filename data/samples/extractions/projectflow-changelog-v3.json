@@ -1,0 +1,25 @@
+{
+  "pricing": null,
+  "features": null,
+  "positioning": null,
+  "content": [
+    {
+      "title": "v2.1.0 — April 2025",
+      "type": "release",
+      "summary": "Bulk task actions from list view, notification preferences per workspace, performance improvements for large datasets.",
+      "isBreaking": false
+    },
+    {
+      "title": "v2.0.0 — March 2025",
+      "type": "release",
+      "summary": "Major architectural overhaul. New API v2, redesigned workspace model with RBAC, signed webhook payloads. v1 API deprecated.",
+      "isBreaking": true
+    },
+    {
+      "title": "v1.9.0 — March 2025",
+      "type": "release",
+      "summary": "Improved dashboard performance by 40%, new CSV export, fixed timezone handling.",
+      "isBreaking": false
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "pricing": null,
+  "features": null,
+  "positioning": null,
+  "content": [
+    {
+      "title": "How we build TaskMaster Pro: our engineering philosophy",
+      "type": "post",
+      "summary": "Behind-the-scenes look at tech stack, iteration cadence, and quality engineering.",
+      "isBreaking": false
+    },
+    {
+      "title": "Top 5 integrations our users love",
+      "type": "post",
+      "summary": "The Slack, GitHub, and other connectors powering the most productive teams.",
+      "isBreaking": false
+    }
+  ]
+}

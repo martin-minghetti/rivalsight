@@ -1,0 +1,19 @@
+{
+  "pricing": null,
+  "features": null,
+  "positioning": null,
+  "content": [
+    {
+      "title": "Why we built WorkOS Suite",
+      "type": "post",
+      "summary": "The gap between startup tools and enterprise suites was too wide — the origin story of WorkOS Suite.",
+      "isBreaking": false
+    },
+    {
+      "title": "Secure by default: how WorkOS approaches data privacy",
+      "type": "post",
+      "summary": "SOC 2 Type II, encrypted at rest, zero-trust architecture — a deep dive into WorkOS security.",
+      "isBreaking": false
+    }
+  ]
+}

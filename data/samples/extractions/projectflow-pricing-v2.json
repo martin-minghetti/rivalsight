@@ -1,0 +1,28 @@
+{
+  "pricing": [
+    {
+      "name": "Starter",
+      "price": 22,
+      "currency": "USD",
+      "period": "month",
+      "features": ["Up to 5 projects", "10 GB storage", "Basic reporting", "Email support"]
+    },
+    {
+      "name": "Pro",
+      "price": 59,
+      "currency": "USD",
+      "period": "month",
+      "features": ["Unlimited projects", "100 GB storage", "Advanced reporting", "Priority support", "API access"]
+    },
+    {
+      "name": "Enterprise",
+      "price": null,
+      "currency": null,
+      "period": null,
+      "features": ["Everything in Pro", "Unlimited storage", "SSO & SAML", "Dedicated support", "SLA guarantee"]
+    }
+  ],
+  "features": null,
+  "positioning": null,
+  "content": null
+}

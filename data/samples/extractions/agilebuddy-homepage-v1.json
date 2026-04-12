@@ -1,0 +1,29 @@
+{
+  "pricing": [
+    {
+      "name": "Starter",
+      "price": 12,
+      "currency": "USD",
+      "period": "month",
+      "features": ["Up to 10 users", "20 projects"]
+    },
+    {
+      "name": "Growth",
+      "price": 29,
+      "currency": "USD",
+      "period": "month",
+      "features": ["Unlimited users and projects"]
+    }
+  ],
+  "features": null,
+  "positioning": {
+    "tagline": "Project management built for startups",
+    "claims": [
+      "Move fast without the overhead",
+      "No setup time. No bloat. Just velocity.",
+      "Trusted by 1,200+ startup teams worldwide"
+    ],
+    "targetAudience": "Startups"
+  },
+  "content": null
+}

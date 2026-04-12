@@ -1,0 +1,21 @@
+{
+  "pricing": [
+    {
+      "name": "Team",
+      "price": 49,
+      "currency": "USD",
+      "period": "month",
+      "features": ["Up to 25 users", "50 GB storage", "Core integrations", "Standard support"]
+    },
+    {
+      "name": "Business",
+      "price": 149,
+      "currency": "USD",
+      "period": "month",
+      "features": ["Up to 100 users", "500 GB storage", "All integrations", "Priority support", "Advanced analytics"]
+    }
+  ],
+  "features": null,
+  "positioning": null,
+  "content": null
+}
