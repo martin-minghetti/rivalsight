@@ -11,10 +11,10 @@ export default async function CompetitorsPage() {
       category: competitors.category,
       isActive: competitors.isActive,
       targetCount: sql<number>`(
-        SELECT count(*) FROM watch_targets wt WHERE wt.competitor_id = ${competitors.id}
+        SELECT count(*) FROM watch_targets WHERE watch_targets.competitor_id = competitors.id
       )`,
       changeCount: sql<number>`(
-        SELECT count(*) FROM changes c WHERE c.competitor_id = ${competitors.id}
+        SELECT count(*) FROM changes WHERE changes.competitor_id = competitors.id
       )`,
     })
     .from(competitors)
