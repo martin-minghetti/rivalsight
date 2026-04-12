@@ -1,7 +1,6 @@
 import { db } from "@/lib/db";
 import { changes, competitors, watchTargets } from "@/lib/db/schema";
 import { eq, desc, and } from "drizzle-orm";
-import ImpactIcon from "@/components/ImpactIcon";
 import ThreatBadge from "@/components/ThreatBadge";
 import FilterBar from "@/components/FilterBar";
 import { Suspense } from "react";
@@ -100,7 +99,6 @@ export default async function ChangesPage({
           <ul className="divide-y divide-gray-100">
             {rows.map((change) => (
               <li key={change.id} className="px-6 py-4 flex items-center gap-4">
-                <ImpactIcon type={change.impactType} />
                 <ThreatBadge level={change.threatLevel} />
                 <div className="flex-1 min-w-0">
                   <p className="text-sm text-gray-900">
