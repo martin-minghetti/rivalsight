@@ -59,9 +59,9 @@ export default function HomePage() {
             <p className="text-sm font-medium text-yellow-700">Medium</p>
             <p className="text-xs text-yellow-600 mt-1">Price increases (opportunity), tagline changes, breaking changelog</p>
           </div>
-          <div className="rounded-xl border border-gray-200 bg-gray-50 p-4">
-            <p className="text-sm font-medium text-gray-600">Low</p>
-            <p className="text-xs text-gray-500 mt-1">Blog posts, minor announcements, informational updates</p>
+          <div className="rounded-xl border border-green-100 bg-green-50 p-4">
+            <p className="text-sm font-medium text-green-700">Low</p>
+            <p className="text-xs text-green-600 mt-1">Blog posts, minor announcements, informational updates</p>
           </div>
         </div>
       </div>
