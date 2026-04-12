@@ -112,7 +112,7 @@ export default function SettingsPage() {
         <div>
           <h2 className="text-sm font-semibold text-gray-800">Anthropic API Key</h2>
           <p className="text-xs text-gray-500 mt-1">
-            Required for AI-powered change analysis. The key is validated on save.
+            Without an API key the app runs in demo mode with pre-computed sample data. Add your <a href="https://console.anthropic.com/" target="_blank" rel="noopener noreferrer" className="underline hover:text-gray-700">Anthropic API key</a> to enable live extraction — Claude will analyze competitor pages and return structured pricing, features, and positioning data. The key is validated with a test call on save.
           </p>
         </div>
         <div className="flex gap-3">
@@ -146,7 +146,7 @@ export default function SettingsPage() {
         <div>
           <h2 className="text-sm font-semibold text-gray-800">Webhook URL</h2>
           <p className="text-xs text-gray-500 mt-1">
-            Receive a POST request when new alerts are generated.
+            Get notified instantly when threats are detected. When a medium, high, or critical alert fires, RivalSight sends a POST request with the full alert payload (competitor, change, threat level) to your URL. Works with Slack incoming webhooks, Discord webhooks, Zapier, or any HTTP endpoint.
           </p>
         </div>
         <div className="flex gap-3">
@@ -180,7 +180,7 @@ export default function SettingsPage() {
         <div>
           <h2 className="text-sm font-semibold text-gray-800">Scheduling</h2>
           <p className="text-xs text-gray-500 mt-1">
-            Automatically run the monitor on a cron schedule.
+            Set it and forget it — the monitor runs automatically on your schedule, checking all active targets for changes. Uses standard cron syntax (e.g. <code className="bg-gray-100 px-1 rounded text-xs">0 */6 * * *</code> = every 6 hours). Requires the app process to be running.
           </p>
         </div>
         <label className="flex items-center gap-3 cursor-pointer select-none">
