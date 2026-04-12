@@ -85,7 +85,7 @@ export default async function ChangesPage({
   return (
     <div className="space-y-6">
       <h1 className="text-xl font-semibold text-gray-900">Changes</h1>
-      <p className="text-sm text-gray-500 mt-1">Chronological feed of every detected change across all competitors, filterable by category and threat level.</p>
+      <p className="text-sm text-gray-500 mt-1">Chronological feed of every detected change across all competitors. Each entry shows what changed (pricing, features, positioning, or content), the old and new values, and a threat score. Use the filters to narrow by competitor, category, threat level, or impact type — for example, show only critical pricing threats or feature additions.</p>
 
       <Suspense>
         <FilterBar filters={filters} />

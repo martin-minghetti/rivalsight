@@ -39,7 +39,7 @@ export default async function RunsPage() {
   return (
     <div className="space-y-6">
       <h1 className="text-xl font-semibold text-gray-900">Monitor Runs</h1>
-      <p className="text-sm text-gray-500 mt-1">History of every monitoring run — how many targets were checked, what changed, and how many alerts fired.</p>
+      <p className="text-sm text-gray-500 mt-1">History of every monitoring run — manual or scheduled. Each run snapshots all active targets, extracts structured data, and diffs against the previous snapshot. "Skipped" means the page hadn't changed (same HTML hash), saving an API call. Runs with zero changes mean your competitors are quiet — which is useful signal too.</p>
 
       <div className="bg-white border border-gray-200 rounded-lg overflow-hidden">
         {runs.length === 0 ? (

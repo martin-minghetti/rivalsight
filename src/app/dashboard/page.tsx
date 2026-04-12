@@ -94,7 +94,7 @@ export default async function DashboardPage() {
       <div className="flex items-center justify-between">
         <div>
           <h1 className="text-xl font-semibold text-gray-900">Dashboard</h1>
-          <p className="text-sm text-gray-500 mt-1">Real-time overview of competitor activity, threat trends, and unread alerts.</p>
+          <p className="text-sm text-gray-500 mt-1">Real-time overview of competitor activity, threat trends, and unread alerts. The stat cards show your current monitoring scope, the chart tracks change volume over the last 30 days colored by severity, and the table below surfaces the most recent alerts so you can spot critical moves immediately.</p>
         </div>
         <RunMonitorButton />
       </div>

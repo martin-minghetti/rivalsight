@@ -53,7 +53,7 @@ export default function AlertsPage() {
       <div className="flex items-center justify-between">
         <div>
           <h1 className="text-xl font-semibold text-gray-900">Alerts</h1>
-          <p className="text-sm text-gray-500 mt-1">High-priority changes that need your attention. Only medium, high, and critical threats generate alerts.</p>
+          <p className="text-sm text-gray-500 mt-1">High-priority changes that need your attention. Only medium, high, and critical threats generate alerts — low-severity changes (blog posts, minor updates) are tracked in Changes but don't surface here. Alerts are deduplicated: the same change won't fire twice within 24 hours. If you've configured a webhook, these same alerts are also sent as POST requests in real time.</p>
         </div>
         <button
           onClick={markAll}
