@@ -85,6 +85,7 @@ export default async function ChangesPage({
   return (
     <div className="space-y-6">
       <h1 className="text-xl font-semibold text-gray-900">Changes</h1>
+      <p className="text-sm text-gray-500 mt-1">Chronological feed of every detected change across all competitors, filterable by category and threat level.</p>
 
       <Suspense>
         <FilterBar filters={filters} />

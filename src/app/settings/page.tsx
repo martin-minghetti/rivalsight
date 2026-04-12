@@ -105,6 +105,7 @@ export default function SettingsPage() {
   return (
     <div className="space-y-6">
       <h1 className="text-xl font-semibold text-gray-900">Settings</h1>
+      <p className="text-sm text-gray-500 mt-1">Configure your API key for live monitoring, set up webhook notifications, and schedule automatic runs.</p>
 
       {/* API Key */}
       <div className="bg-white border border-gray-200 rounded-lg p-6 space-y-4">

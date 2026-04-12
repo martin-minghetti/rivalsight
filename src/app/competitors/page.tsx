@@ -23,6 +23,7 @@ export default async function CompetitorsPage() {
   return (
     <div className="space-y-6">
       <h1 className="text-xl font-semibold text-gray-900">Competitors</h1>
+      <p className="text-sm text-gray-500 mt-1">Manage the companies you're tracking and their monitored pages.</p>
 
       <div className="bg-white border border-gray-200 rounded-lg overflow-hidden">
         {rows.length === 0 ? (

@@ -51,7 +51,10 @@ export default function AlertsPage() {
     <div className="space-y-6">
       {/* Header */}
       <div className="flex items-center justify-between">
-        <h1 className="text-xl font-semibold text-gray-900">Alerts</h1>
+        <div>
+          <h1 className="text-xl font-semibold text-gray-900">Alerts</h1>
+          <p className="text-sm text-gray-500 mt-1">High-priority changes that need your attention. Only medium, high, and critical threats generate alerts.</p>
+        </div>
         <button
           onClick={markAll}
           className="text-sm text-blue-600 hover:underline"
